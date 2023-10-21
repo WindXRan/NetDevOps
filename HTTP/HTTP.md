@@ -205,8 +205,6 @@ Server: Apache
 
 非持久连接给服务器带来了沉重的负担，每台服务器可能同时面对数以百计甚至更多的请求。持久连接就是为了解决这些问题，其特点是一直保持TCP连接状态，直到遇到明确的中断要求之后再中断连接。持久连接减少了通信开销，节省了通信量。
 
-![HTTP协议介绍 | Linux运维部落](https://ts1.cn.mm.bing.net/th/id/R-C.2abfbb2557822d77ffad46cbfdc6c663?rik=TQd1vdkcSMut6g&riu=http%3a%2f%2fwww.178linux.com%2fwp-content%2fuploads%2f2018%2f06%2f%e6%8c%81%e4%b9%85%e8%bf%9e%e6%8e%a5.png&ehk=r14gk3gPUH7MFfsM6ZoXh%2b7OfUwMX3SDyy%2bZyBaDeAo%3d&risl=&pid=ImgRaw&r=0)
-
 ## HTTPS
 
 **HTTPS**是一种基于**TLS**（Secure Socket Layer）/**SSL**（Secure Socket Layer）协议的HTTP协议。它通过使用数据加密和身份验证来保护网络通信安全。
